@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
+  <title>Local Service Management System (LSSEMS) — Project Case Study | Vinesh Jadav</title>
+  
+  <meta name="description" content="Detailed case study of Local Service Management System (LSSEMS) built with Python, Django, and MySQL by Vinesh Jadav." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Modern Portfolio Design System -->
+  <link rel="stylesheet" href="css/modern-portfolio.css" />
+</head>
+
+<body>
+  <!-- Ambient Background Lights -->
+  <div class="ambient-glow">
+    <div class="glow-orb-1"></div>
+    <div class="glow-orb-2"></div>
+  </div>
+
+  <div class="site-wrapper">
+    <!-- Header -->
+    <header class="modern-header scrolled" id="navbar">
+      <div class="modern-container nav-container">
+        <a href="index.html" class="brand-logo" aria-label="Home">
+          <div class="brand-badge">V</div>
+          <span>Vinesh<span class="dot">.</span></span>
+        </a>
+
+        <nav class="desktop-nav-menu">
+          <a href="index.html#home" class="nav-link-item">Home</a>
+          <a href="index.html#about" class="nav-link-item">About</a>
+          <a href="index.html#projects" class="nav-link-item active">Projects</a>
+          <a href="index.html#skills" class="nav-link-item">Skills</a>
+          <a href="index.html#contact" class="nav-link-item">Contact</a>
+        </nav>
+
+        <div class="nav-cta-btn">
+          <a href="index.html#projects" class="btn-modern btn-secondary">
+            <i class="fa-solid fa-arrow-left"></i>
+            <span>All Projects</span>
+          </a>
+        </div>
+
+        <button class="mobile-nav-toggle" aria-label="Toggle Navigation Menu" id="mobileMenuBtn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer-overlay" id="drawerOverlay"></div>
+    <aside class="mobile-drawer" id="mobileDrawer">
+      <div class="mobile-nav-links">
+        <a href="index.html#home" class="mobile-nav-link"><span>Home</span><i class="fa-solid fa-house"></i></a>
+        <a href="index.html#projects" class="mobile-nav-link active"><span>All Projects</span><i class="fa-solid fa-laptop-code"></i></a>
+        <a href="index.html#resume" class="mobile-nav-link"><span>Resume</span><i class="fa-solid fa-briefcase"></i></a>
+        <a href="index.html#contact" class="mobile-nav-link"><span>Contact</span><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </aside>
+
+    <!-- Project Details Hero -->
+    <main style="padding-top: calc(var(--nav-height) + 40px); padding-bottom: 80px;">
+      <div class="modern-container" style="max-width: 960px;">
+        <!-- Breadcrumbs -->
+        <div style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; color: var(--text-muted); margin-bottom: 24px;">
+          <a href="index.html" style="color: var(--accent-cyan);">Home</a>
+          <i class="fa-solid fa-chevron-right" style="font-size: 0.75rem;"></i>
+          <a href="index.html#projects" style="color: var(--accent-cyan);">Projects</a>
+          <i class="fa-solid fa-chevron-right" style="font-size: 0.75rem;"></i>
+          <span>LSSEMS Case Study</span>
+        </div>
+
+        <!-- Project Title -->
+        <h1 style="font-size: clamp(2.2rem, 5vw, 3.4rem); margin-bottom: 16px; color: var(--text-white);">
+          Local Service Management System <span class="gradient-text">(LSSEMS)</span>
+        </h1>
+
+        <div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 30px;">
+          <span class="tech-tag" style="font-size: 0.85rem; padding: 4px 14px;">Python</span>
+          <span class="tech-tag" style="font-size: 0.85rem; padding: 4px 14px;">Django Framework</span>
+          <span class="tech-tag" style="font-size: 0.85rem; padding: 4px 14px;">MySQL</span>
+          <span class="tech-tag" style="font-size: 0.85rem; padding: 4px 14px;">Bootstrap & UI</span>
+          <span style="font-size: 0.85rem; color: var(--text-muted); margin-left: auto;">
+            <i class="fa-solid fa-calendar-days" style="margin-right: 6px;"></i> Production Project
+          </span>
+        </div>
+
+        <!-- Actions -->
+        <div style="display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 40px;">
+          <a href="https://youtu.be/P5d3AdgZH8Q?si=_7mCm6nEAKenAP4p" target="_blank" class="btn-modern btn-primary btn-glow" style="background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);">
+            <i class="fa-brands fa-youtube"></i>
+            <span>Watch Video Demo</span>
+          </a>
+          <a href="index.html#contact" class="btn-modern btn-secondary">
+            <i class="fa-solid fa-paper-plane"></i>
+            <span>Inquire About Similar Build</span>
+          </a>
+        </div>
+
+        <!-- Primary Showcase Image -->
+        <div style="border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--border-subtle); background: var(--bg-card); box-shadow: var(--shadow-lg); margin-bottom: 48px;">
+          <img src="images/ls.png" alt="Local Service Management System Dashboard" style="width: 100%; object-fit: cover;" />
+        </div>
+
+        <!-- Case Study Content -->
+        <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: clamp(24px, 5vw, 44px); box-shadow: var(--shadow-md);">
+          <h2 style="font-size: 1.6rem; color: var(--text-white); margin-bottom: 16px;">
+            <i class="fa-solid fa-lightbulb" style="color: var(--accent-cyan); margin-right: 10px;"></i>
+            Project Overview & Objectives
+          </h2>
+          <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 28px; font-size: 1.05rem;">
+            <strong>LSSEMS (Local Service Management System)</strong> is an interactive web-based platform engineered to bridge the gap between local residents and verified neighbourhood service professionals (plumbers, electricians, private tutors, carpenters, and domestic helpers). It replaces unorganized local service hunting with a transparent, digitized portal for request tracking and technician booking.
+          </p>
+
+          <h3 style="font-size: 1.3rem; color: var(--text-white); margin-bottom: 16px;">
+            <i class="fa-solid fa-gears" style="color: var(--accent-primary); margin-right: 10px;"></i>
+            Key System Capabilities & Architecture
+          </h3>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-bottom: 36px;">
+            <div style="padding: 18px; background: rgba(255, 255, 255, 0.02); border: 1px solid var(--border-subtle); border-radius: var(--radius-md);">
+              <h4 style="font-size: 1.05rem; margin-bottom: 8px; color: var(--text-white);">User & Resident Portal</h4>
+              <p style="font-size: 0.92rem; color: var(--text-secondary); margin: 0;">
+                Allows locality members to search nearby professionals by category, review service charges, request bookings, and track service status in real time.
+              </p>
+            </div>
+
+            <div style="padding: 18px; background: rgba(255, 255, 255, 0.02); border: 1px solid var(--border-subtle); border-radius: var(--radius-md);">
+              <h4 style="font-size: 1.05rem; margin-bottom: 8px; color: var(--text-white);">Admin Management Dashboard</h4>
+              <p style="font-size: 0.92rem; color: var(--text-secondary); margin: 0;">
+                Empowers administrators to verify serviceman credentials, manage categories, supervise customer feedback, and oversee dispute resolutions.
+              </p>
+            </div>
+
+            <div style="padding: 18px; background: rgba(255, 255, 255, 0.02); border: 1px solid var(--border-subtle); border-radius: var(--radius-md);">
+              <h4 style="font-size: 1.05rem; margin-bottom: 8px; color: var(--text-white);">Database & CRUD Operations</h4>
+              <p style="font-size: 0.92rem; color: var(--text-secondary); margin: 0;">
+                Engineered with Django ORM and MySQL database models with relational foreign-key schemas, data validation, and clean query efficiency.
+              </p>
+            </div>
+
+            <div style="padding: 18px; background: rgba(255, 255, 255, 0.02); border: 1px solid var(--border-subtle); border-radius: var(--radius-md);">
+              <h4 style="font-size: 1.05rem; margin-bottom: 8px; color: var(--text-white);">Responsive Frontend Interface</h4>
+              <p style="font-size: 0.92rem; color: var(--text-secondary); margin: 0;">
+                Designed with mobile responsiveness in mind so customers can smoothly book assistance right from their smartphones on the go.
+              </p>
+            </div>
+          </div>
+
+          <!-- Bottom Navigation Link -->
+          <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--border-subtle); padding-top: 24px; flex-wrap: wrap; gap: 16px;">
+            <a href="index.html#projects" class="project-link-text">
+              <i class="fa-solid fa-arrow-left"></i>
+              <span>Back to Featured Work</span>
+            </a>
+            <a href="single2.html" class="project-link-text">
+              <span>Next Project: Infinity3 Tech</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Modern Footer -->
+    <footer class="modern-footer">
+      <div class="modern-container">
+        <div class="footer-bottom" style="border: none; padding-top: 0;">
+          <p class="copyright-text">
+            &copy; 2026 Vinesh Jadav. All rights reserved.
+          </p>
+          <a href="index.html" class="project-link-text">
+            <span>Back to Main Portfolio</span>
+            <i class="fa-solid fa-arrow-up"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/modern-portfolio.js"></script>
+</body>
+</html>
